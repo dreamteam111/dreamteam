@@ -16,13 +16,13 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'dreamteam');
+define('DB_NAME', 'mysite');
 
 /** Имя пользователя MySQL */
 define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '123');
+define('DB_PASSWORD', 'vano2806');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '[ ^<3W}0S$r5KbF|# 9nXkqopN U=cO5L?(HA2L9B@2+N$JCA-RYPrg0I`eAJ}Gi');
-define('SECURE_AUTH_KEY',  'TNy5-+gmjgA&$4D]ucvpHZ+CIAhs<OCOmcR.FCCb3?98RD<<Be2A$[8F:rjw>F|v');
-define('LOGGED_IN_KEY',    '+1bWJZ- X6aa$yRr?zXoSnD$N2Cb#rg/.KCDMAd-q=lP=aeQlB~Odxm>k*R)ayNF');
-define('NONCE_KEY',        '5K>uwaq3%^?V@=oPiSf92eTTxW0] ht>t#M^gMUPE6?U*A4iu+2/9K ATY>geZng');
-define('AUTH_SALT',        'qs`mE7:/DF1 nG8)Sp= k@Xi8D}<t(o;t+S4(`i}uwJ})K5EfhaV[e|yW|6J=1e7');
-define('SECURE_AUTH_SALT', '~@7jOXqc ;,^rL:lRM+=|Lj%t:TN3.?},]f^=G@?-|.so-Y4n-m++Sc/knA8sZWp');
-define('LOGGED_IN_SALT',   ' NL~g]X53gAP|,-]yC.?R=KtC71#d1^)z=b+;+X+hR2CDuw>*%+TwUF{r Fiie^z');
-define('NONCE_SALT',       'gm*%RxeNq-,=6s.+3qjP(_hrasoQUNu<R3acei9#v/W?sR$f}:22/>FzgNM4dBIB');
+define('AUTH_KEY',         'tM.|2>9rf2E%M;6W`33MA3Rc[?-K1bY)7-R(Q}QmXjYNyc_(?!?-)^/+Vp9/Il<n');
+define('SECURE_AUTH_KEY',  'IBAP19-<k|8SxKPThg+>+xIWi8;qf;-`f]P;7Vx4m2{/`|5@G[6MLPbureXYbGe,');
+define('LOGGED_IN_KEY',    'RKx7Yf3tY~jGVy2`tiw_8!ZG;}gzyl2u8WK->03g&,o!kRvAhjH>jr+sD0v]@6G/');
+define('NONCE_KEY',        'T@$i?K|#TZ<>iI*e~f=]mi{&[$%z+z8k7N;MD+z[B5Dz*92zd1B..)xYfn}7-@Ws');
+define('AUTH_SALT',        'iL/hAY7VRI%;/>UO-Y*_6c*!uJ?tX-CvO Cxz},<A^5Nm8;qjr*(0$_H<E7EZQTL');
+define('SECURE_AUTH_SALT', 'OIgy)IH0eY{MtuO8M[3yb<@5TS1Q0>=Yk00d|r|E.(]+vs|t.U,Orj-{{AVKDOx+');
+define('LOGGED_IN_SALT',   '*eHluPxJ5cY5|R+e.jEaD+R!6-QCgyF(%Ts&X0{Raog+F4lFe+-%5=W|f)<MN#mt');
+define('NONCE_SALT',       '96Cf`ZM:z$<qh:7:t@txL?++A>wJ=U-HgA=gW:i*%4fp<Z24m5EPT|PU4*3Se-X,');
 
 /**#@-*/
 
