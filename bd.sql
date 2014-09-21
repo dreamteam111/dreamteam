@@ -1,6 +1,6 @@
 /*
 SQLyog Community v11.11 (32 bit)
-MySQL - 5.5.37-MariaDB-0ubuntu0.14.04.1 : Database - dreamteam
+MySQL - 5.5.37-MariaDB-0ubuntu0.14.04.1 : Database - db
 *********************************************************************
 */
 
@@ -12,9 +12,9 @@ MySQL - 5.5.37-MariaDB-0ubuntu0.14.04.1 : Database - dreamteam
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`dreamteam` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`db` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `dreamteam`;
+USE `db`;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
