@@ -1,6 +1,6 @@
 /*
-SQLyog Ultimate v8.32 
-MySQL - 5.5.39-MariaDB-0ubuntu0.14.04.1 : Database - dreamteam
+SQLyog Community v11.11 (32 bit)
+MySQL - 5.5.37-MariaDB-0ubuntu0.14.04.1 : Database - dreamteam
 *********************************************************************
 */
 

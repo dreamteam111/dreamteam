@@ -318,7 +318,7 @@ ol.comment-list li p.meta strong {
 .button, #submit, .widget_search #searchsubmit {
 
     padding:.75em 1em;
-	background:#578724;
+	background:#d3cdcd;
 	text-decoration: none;
 	color:#ffffff;
 	cursor: pointer;
@@ -595,5 +595,8 @@ widows : 3;
 
  h2, h3  { 
 page-break-after : avoid; 
+}
+#searchsubmit{
+	background-color:grey;
 } 
 }
