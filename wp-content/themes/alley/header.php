@@ -38,8 +38,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 			</a>
 </header>
 
-<nav id="main-nav" role="navigation"><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?></nav>
-	
+<!-- <nav id="main-nav" role="navigation"><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?></nav> -->
+	<nav id="main-nav" role="navigation"><?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?><?php ?></nav>
 <div id="main" role="main">
 
 
