@@ -5,3 +5,18 @@
 [Mon Sep 22 14:05:11.470234 2014] [:error] [pid 2272] [client 127.0.0.1:35982] PHP   2. do_action() /var/www/wordpress/wp-admin/admin.php:212, referer: http://word.press/wp-admin/
 [Mon Sep 22 14:05:11.470243 2014] [:error] [pid 2272] [client 127.0.0.1:35982] PHP   3. call_user_func_array() /var/www/wordpress/wp-includes/plugin.php:505, referer: http://word.press/wp-admin/
 [Mon Sep 22 14:05:11.470251 2014] [:error] [pid 2272] [client 127.0.0.1:35982] PHP   4. wp_constellation_admin() /var/www/wordpress/wp-includes/plugin.php:505, referer: http://word.press/wp-admin/
+[Mon Sep 22 14:56:47.369449 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP Notice:  Trying to get property of non-object in /var/www/wordpress/wp-content/plugins/disqus-comment-system/disqus.php on line 652
+[Mon Sep 22 14:56:47.369514 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP Stack trace:
+[Mon Sep 22 14:56:47.369533 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   1. {main}() /var/www/wordpress/wp-cron.php:0
+[Mon Sep 22 14:56:47.369544 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   2. do_action_ref_array() /var/www/wordpress/wp-cron.php:103
+[Mon Sep 22 14:56:47.369555 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   3. call_user_func_array() /var/www/wordpress/wp-includes/plugin.php:580
+[Mon Sep 22 14:56:47.369565 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   4. dsq_sync_forum() /var/www/wordpress/wp-includes/plugin.php:580
+[Mon Sep 22 14:56:47.369574 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   5. dsq_sync_post() /var/www/wordpress/wp-content/plugins/disqus-comment-system/disqus.php:599
+[Mon Sep 22 14:56:47.369585 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   6. dsq_update_permalink() /var/www/wordpress/wp-content/plugins/disqus-comment-system/disqus.php:572
+[Mon Sep 22 14:56:47.834703 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP Notice:  Undefined index: comment_parent in /var/www/wordpress/wp-content/plugins/disqus-comment-system/disqus.php on line 338
+[Mon Sep 22 14:56:47.834752 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP Stack trace:
+[Mon Sep 22 14:56:47.834767 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   1. {main}() /var/www/wordpress/wp-cron.php:0
+[Mon Sep 22 14:56:47.834777 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   2. do_action_ref_array() /var/www/wordpress/wp-cron.php:103
+[Mon Sep 22 14:56:47.834787 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   3. call_user_func_array() /var/www/wordpress/wp-includes/plugin.php:580
+[Mon Sep 22 14:56:47.834797 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   4. dsq_sync_forum() /var/www/wordpress/wp-includes/plugin.php:580
+[Mon Sep 22 14:56:47.834807 2014] [:error] [pid 5248] [client 127.0.0.1:36606] PHP   5. dsq_sync_comments() /var/www/wordpress/wp-content/plugins/disqus-comment-system/disqus.php:621

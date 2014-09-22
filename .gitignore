@@ -1,1 +1,3 @@
 wp-config.php
+access.log
+error.log
